@@ -1,0 +1,1 @@
+(()=>{"use strict";const t=function(){fetch("https://api.openweathermap.org/data/2.5/weather?lat=-6.200000&lon=106.816666&appid=035f94cb53ea90b6eade86798c4819e4",{method:"GET",headers:{accept:"application/json"}}).then((function(t){return t.json()})).then((function(t){})).catch((function(t){}))};document.addEventListener("DOMContentLoaded",(function(){t()}))})();
